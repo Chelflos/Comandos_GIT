@@ -1,0 +1,33 @@
+GIT
+
+git init			inicializar repositorio
+
+git add nombre.ext		(add . Sube a stage todo lo introducido desde el init)(add *.ext anade todos los archivos con esa extension)
+
+git reset nombre.ext		(reset .resetea todo el add)	
+	
+git checkout --.		(devuelve todos los archivos en seguimiento a su estado en el ultimo commit)
+
+git commit -m "mensaje"		(Crear un commit con su mensaje)
+git commit --amend		(Permite modificar el mensaje del ultimo commit; para salir, pulsa esc, :wq! enter)
+git commit -am "mensaje"	(Permite hacer un add y un commit a la vez)
+
+git checkout -b nombreRama	(Crea una rama nueva)
+git checkout nombreRama		(cambiar de rama)
+git branch			(Devuelve info de las ramas)
+git branch -d nombreRama	(Eliminar rama)
+git merge nombreRama		(combinar los datos de la rama indicada con la actual)
+
+git tag nombreTag		(crea un tag para el ultimo commit realizado)
+git tag -d nombreTag		(Elimina el tag)
+git tag 			(Devuelve un listado de los tags)
+git tag nombre hashCommit	(Asigna a el commit indicado ese tag)
+
+git pull origin main 		(descarga el codigo de la rama de origin y a la vez me hace un merge de mis
+				 cambios con dicha rama).
+
+git remote add https://urlRepo	(indicar la ruta del repositorio)
+git branch -M nombreMaster	(renombra la rama master)
+git push -u origin nombreMaster	(sube los datos al servidor)
+
+git lod				(muestra el estado del repositorio y hash de los commit)
