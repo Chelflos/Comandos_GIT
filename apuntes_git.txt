@@ -30,4 +30,4 @@ git remote add https://urlRepo	(indicar la ruta del repositorio)
 git branch -M nombreMaster	(renombra la rama master)
 git push -u origin nombreMaster	(sube los datos al servidor)
 
-git lod				(muestra el estado del repositorio y hash de los commit)
+git log				(muestra el estado del repositorio y hash de los commit)
